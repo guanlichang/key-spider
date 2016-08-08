@@ -1,16 +1,16 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>org.yi.spider</groupId>
-	<artifactId>yispider</artifactId>
+	<groupId>org.key.spider</groupId>
+	<artifactId>keyspider</artifactId>
 	<version>2.1</version>
-	<name>易大师采集器</name>
-	<description>易大师采集器, 专业的小说采集工具</description>
+	<name>key采集器</name>
+	<description>key采集器, 专业的小说采集工具</description>
 
 	<developers>
 		<developer>
-			<name>yispider</name>
-			<id>yispider</id>
+			<name>keyspider</name>
+			<id>keyspider</id>
 			<organization />
 			<roles>
 				<role>The project sponsor</role>
