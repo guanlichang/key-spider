@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RuleConfigInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+ <GetSiteName>
+  <RegexName>GetSiteName</RegexName>
+  <Pattern>17k中文网</Pattern>
+  <Method/>
+  <FilterPattern/>
+  <Options/>
+ </GetSiteName>
+ <NovelList_GetNovelKey>
+  <RegexName>NovelList_GetNovelKey</RegexName>
+  <Pattern>&lt;div class="zp"&gt;&lt;a target="_blank" title=".+?" href="http://www.17k.com/book/(\d*).html"&gt;.+?&lt;/a&gt;&lt;/div&gt;</Pattern>
+  <Method/>
+  <FilterPattern/>
+  <Options/>
+ </NovelList_GetNovelKey>
+ <GetSiteCharset>
+  <RegexName>GetSiteCharset</RegexName>
+  <Pattern>utf-8</Pattern>
+  <Method/>
+  <FilterPattern/>
+  <Options/>
+ </GetSiteCharset>
+ <NovelDegree>
+  <RegexName>NovelDegree</RegexName>
+  <Pattern>&lt;a.+?href=".+?".+?class="[a2|a3]"&gt;(.+?)&lt;/a&gt;</Pattern>
+  <Method/>
+  <FilterPattern>连载小说♂连载中
+全本小说♂已完本</FilterPattern>
+  <Options/>
+ </NovelDegree>
+ <NovelUrl>
+  <RegexName>NovelUrl</RegexName>
+  <Pattern>http://www.17k.com/book/{NovelKey}.html</Pattern>
+  <Method/>
+  <FilterPattern/>
+  <Options/>
+ </NovelUrl>
+ <NovelDefaultCoverUrl>
+  <RegexName>NovelDefaultCoverUrl</RegexName>
+  <Pattern/>
+  <Method/>
+  <FilterPattern/>
+  <Options/>
+ </NovelDefaultCoverUrl>
+ <NovelKeyword>
+  <RegexName>NovelKeyword</RegexName>
+  <Pattern/>
+  <Method/>
+  <FilterPattern/>
+  <Options/>
+ </NovelKeyword>
+ <RuleVersion>
+  <RegexName>RuleVersion</RegexName>
+  <Pattern>1</Pattern>
+  <Method/>
+  <FilterPattern/>
+  <Options/>
+ </RuleVersion>
+ <NovelListUrl>
+  <RegexName>NovelListUrl</RegexName>
+  <Pattern>http://top.17k.com/mt/serialUserClickTopList_week.shtml
+http://top.17k.com/click_wz_week.shtml
+http://top.17k.com/guibin_wz_week.shtml
+http://top.17k.com/hclick_wz_week.shtml
+http://top.17k.com/sub_wz_month.shtml
+http://top.17k.com/vipbaoyuephb_wz_week.shtml
+http://top.17k.com/flower_wz_week.shtml</Pattern>
+  <Method/>
+  <FilterPattern/>
+  <Options/>
+ </NovelListUrl>
+ <NovelInfoExtra>
+  <RegexName>NovelInfoExtra</RegexName>
+  <Pattern/>
+  <Method/>
+  <FilterPattern/>
+  <Options/>
+ </NovelInfoExtra>
+ <NovelInfo_GetNovelPubKey>
+  <RegexName>NovelInfo_GetNovelPubKey</RegexName>
+  <Pattern/>
+  <Method/>
+  <FilterPattern/>
+  <Options/>
+ </NovelInfo_GetNovelPubKey>
+ <NovelIntro>
+  <RegexName>NovelIntro</RegexName>
+  <Pattern>&lt;font itemprop="description"&gt;(.+?)&lt;/font&gt;</Pattern>
+  <Method/>
+  <FilterPattern/>
+  <Options/>
+ </NovelIntro>
+ <NovelCover>
+  <RegexName>NovelCover</RegexName>
+  <Pattern>&lt;img itemprop="image" src="(.+?)"</Pattern>
+  <Method/>
+  <FilterPattern/>
+  <Options/>
+ </NovelCover>
+ <NovelName>
+  <RegexName>NovelName</RegexName>
+  <Pattern>&lt;span class="c6"&gt;&lt;a href="/book/\d*.html"&gt;(.+?)&lt;/a&gt;&lt;/span&gt;</Pattern>
+  <Method/>
+  <FilterPattern/>
+  <Options/>
+ </NovelName>
+ <PubChapter_GetChapterKey>
+  <RegexName>PubChapter_GetChapterKey</RegexName>
+  <Pattern>&lt;li&gt;\s*&lt;a id="tips_\d*" tn=".+?" tw="\d*" td=".+?" target="_blank" href="/chapter/\d*/(\d*).html"\s*&gt;[\s\S]+?&lt;/a&gt;\s*&lt;/li&gt;</Pattern>
+  <Method/>
+  <FilterPattern/>
+  <Options/>
+ </PubChapter_GetChapterKey>
+ <PubIndexUrl>
+  <RegexName>PubIndexUrl</RegexName>
+  <Pattern>http://www.17k.com/list/{NovelKey}.html</Pattern>
+  <Method/>
+  <FilterPattern/>
+  <Options/>
+ </PubIndexUrl>
+ <GetSiteUrl>
+  <RegexName>GetSiteUrl</RegexName>
+  <Pattern>http://www.17k.com/</Pattern>
+  <Method/>
+  <FilterPattern/>
+  <Options/>
+ </GetSiteUrl>
+ <PubContentText>
+  <RegexName>PubContentText</RegexName>
+  <Pattern/>
+  <Method/>
+  <FilterPattern/>
+  <Options/>
+ </PubContentText>
+ <PubContentUrl>
+  <RegexName>PubContentUrl</RegexName>
+  <Pattern/>
+  <Method/>
+  <FilterPattern/>
+  <Options/>
+ </PubContentUrl>
+ <SmallSort>
+  <RegexName>SmallSort</RegexName>
+  <Pattern>&lt;a href="http://all.17k.com/all/.+?/.+?/" target="_blank"&gt;(.+?)&lt;/a&gt; .gt;.gt;</Pattern>
+  <Method/>
+  <FilterPattern/>
+  <Options/>
+ </SmallSort>
+ <PubChapterName>
+  <RegexName>PubChapterName</RegexName>
+  <Pattern>&lt;li&gt;\s*&lt;a id="tips_\d*" tn=".+?" tw="\d*" td=".+?" target="_blank" href="/chapter/\d*/\d*.html"\s*&gt;([\s\S]+?)&lt;/a&gt;\s*&lt;/li&gt;</Pattern>
+  <Method/>
+  <FilterPattern/>
+  <Options/>
+ </PubChapterName>
+ <NovelAuthor>
+  <RegexName>NovelAuthor</RegexName>
+  <Pattern>&lt;span&gt;作者：&lt;a target="_blank" href=".+?"&gt;&lt;font itemprop="name"&gt;(.+?)&lt;/font&gt;&lt;/a&gt;</Pattern>
+  <Method/>
+  <FilterPattern/>
+  <Options/>
+ </NovelAuthor>
+ <LagerSort>
+  <RegexName>LagerSort</RegexName>
+  <Pattern>&lt;a href="http://www.17k.com/.+?/" target="_blank"&gt;(.+?)&lt;/a&gt; .gt;.gt;</Pattern>
+  <Method/>
+  <FilterPattern/>
+  <Options/>
+ </LagerSort>
+</RuleConfigInfo>
