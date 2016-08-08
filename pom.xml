@@ -4,7 +4,7 @@
 	<groupId>org.key.spider</groupId>
 	<artifactId>keyspider</artifactId>
 	<version>2.1</version>
-	<name>key采集器</name>
+	<name>keyspider</name>
 	<description>key采集器, 专业的小说采集工具</description>
 
 	<developers>
